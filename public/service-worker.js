@@ -3,10 +3,11 @@ const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
-    "/favicon.ico",
-    "/manifest.webmanifest",
     "/assets/css/style.css",
-    "/index.js"
+    "/assets/js/index.js",
+    "/assets/js/indexedDb.js",
+    "/assets/icons/icon-192x192.png",
+    "/assets/icons/icon-512x512.png",
 ];
 
 self.addEventListener("install", function (evt) {
